@@ -46,20 +46,20 @@ npm install --legacy-peer-deps --registry https://registry.npmmirror.com/
 npm run dev
 
 ## 拉取代码
-git pull https://github.com/wenly84/bjzjf-boot-front.git
-git add .
-git commit -m "init
-git branch -M master
-git remote add origin https://github.com/wenly84/bjzjf-boot-front.git
-git push -u origin master
+* git pull https://github.com/wenly84/bjzjf-boot-front.git
+* git add .
+* git commit -m "init
+* git branch -M master
+* git remote add origin https://github.com/wenly84/bjzjf-boot-front.git
+* git push -u origin master
 
 
 ## 设置代理和取消设置代理
-git config --global http.proxy 用户名:密码@IP:端口
-git config --global https.proxy 用户名:密码@IP:端口
+* git config --global http.proxy 用户名:密码@IP:端口
+* git config --global https.proxy 用户名:密码@IP:端口
 
-git config --global https.proxy  wenly84:密码@127.0.0.1:7890
-git config --global --unset http.proxy
-git config --global --unset https.proxy
+* git config --global https.proxy  wenly84:密码@127.0.0.1:7890
+* git config --global --unset http.proxy
+* git config --global --unset https.proxy
 
-git config --global --list
+* git config --global --list
