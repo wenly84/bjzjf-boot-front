@@ -48,7 +48,7 @@ npm run dev
 ## 拉取代码
 * git pull https://github.com/wenly84/bjzjf-boot-front.git
 * git add .
-* git commit -m "init
+* git commit -m "init"
 * git branch -M master
 * git remote add origin https://github.com/wenly84/bjzjf-boot-front.git
 * git push -u origin master
