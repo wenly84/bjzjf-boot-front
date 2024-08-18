@@ -41,8 +41,8 @@
 
 
 ## 启动
+npm install -g pnpm（推荐 pnmp）
 npm install --legacy-peer-deps --registry https://registry.npmmirror.com/
-## npm install -g pnpm
 npm run dev
 
 ## 拉取代码
