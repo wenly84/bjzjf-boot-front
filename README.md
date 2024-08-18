@@ -41,9 +41,9 @@
 
 
 ## 启动
-npm install -g pnpm（推荐 pnmp）
-npm install --legacy-peer-deps --registry https://registry.npmmirror.com/
-npm run dev
+* npm install -g pnpm（推荐 pnmp）
+* npm install --legacy-peer-deps --registry https://registry.npmmirror.com/
+* npm run dev
 
 ## 拉取代码
 * git pull https://github.com/wenly84/bjzjf-boot-front.git
