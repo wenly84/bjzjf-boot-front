@@ -1,12 +1,9 @@
 ![首页]
 
-* **最新技术栈**：使用 Vue3、Vite4 等前端前沿技术开发
-* **TypeScript**: 应用程序级 JavaScript 的语言
-* **主题**: 可配置的主题
+* **最新技术栈**：使用 Vue3、Vite4、TypeScript 等前端前沿技术开发
 * **国际化**：内置完善的国际化方案
 * **权限**：内置完善的动态路由权限生成方案
 * **组件**：二次封装了多个常用的组件
-* **示例**：内置丰富的示例
 
 ## 技术栈
 
@@ -26,40 +23,28 @@
 
 ## 开发工具
 
-推荐 VS Code 开发，配合插件如下：
-
-| 插件名                           | 功能                  |
-|-------------------------------|---------------------|
-| Vue - Official                | Vue 与 TypeScript 支持 |
-| unocss                        | unocss for vscode   |
-| Iconify IntelliSense          | Iconify 预览和搜索       |
-| i18n Ally                     | 国际化智能提示             |
-| Stylelint                     | Css    格式化          |
-| Prettier                      | 代码格式化               |
-| ESLint                        | 脚本代码检查              |
-| DotENV                        | env 文件高亮            |
-
+推荐 VS Code 开发
 
 ## 启动
-npm install --legacy-peer-deps --registry https://registry.npmmirror.com/
-## npm install -g pnpm
-npm run dev
+* npm install -g pnpm（推荐 pnmp）
+* npm install --legacy-peer-deps --registry https://registry.npmmirror.com/
+* npm run dev
 
 ## 拉取代码
-git pull https://github.com/wenly84/bjzjf-boot-front.git
-git add .
-git commit -m "init
-git branch -M master
-git remote add origin https://github.com/wenly84/bjzjf-boot-front.git
-git push -u origin master
+* git pull https://github.com/wenly84/bjzjf-boot-front.git
+* git add .
+* git commit -m "init"
+* git branch -M master
+* git remote add origin https://github.com/wenly84/bjzjf-boot-front.git
+* git push -u origin master
 
 
 ## 设置代理和取消设置代理
-git config --global http.proxy 用户名:密码@IP:端口
-git config --global https.proxy 用户名:密码@IP:端口
+* git config --global http.proxy 用户名:密码@IP:端口
+* git config --global https.proxy 用户名:密码@IP:端口
 
-git config --global https.proxy  wenly84:密码@127.0.0.1:7890
-git config --global --unset http.proxy
-git config --global --unset https.proxy
+* git config --global https.proxy  wenly84:密码@127.0.0.1:7890
+* git config --global --unset http.proxy
+* git config --global --unset https.proxy
 
-git config --global --list
+* git config --global --list
