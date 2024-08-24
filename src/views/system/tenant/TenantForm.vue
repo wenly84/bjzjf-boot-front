@@ -7,11 +7,11 @@
       :rules="formRules"
       label-width="80px"
     >
-      <el-form-item label="租户名" prop="name">
-        <el-input v-model="formData.name" placeholder="请输入租户名" />
+      <el-form-item label="加盟方名称" prop="name">
+        <el-input v-model="formData.name" placeholder="请输入加盟方名称" />
       </el-form-item>
-      <el-form-item label="租户套餐" prop="packageId">
-        <el-select v-model="formData.packageId" clearable placeholder="请选择租户套餐">
+      <el-form-item label="加盟套餐" prop="packageId">
+        <el-select v-model="formData.packageId" clearable placeholder="请选择加盟套餐">
           <el-option
             v-for="item in packageList"
             :key="item.id"
@@ -57,7 +57,7 @@
       <el-form-item label="绑定域名" prop="website">
         <el-input v-model="formData.website" placeholder="请输入绑定域名" />
       </el-form-item>
-      <el-form-item label="租户状态" prop="status">
+      <el-form-item label="加盟状态" prop="status">
         <el-radio-group v-model="formData.status">
           <el-radio
             v-for="dict in getIntDictOptions(DICT_TYPE.COMMON_STATUS)"
@@ -104,10 +104,10 @@ const formData = ref({
   password: undefined
 })
 const formRules = reactive({
-  name: [{ required: true, message: '租户名不能为空', trigger: 'blur' }],
-  packageId: [{ required: true, message: '租户套餐不能为空', trigger: 'blur' }],
+  name: [{ required: true, message: '加盟方名称不能为空', trigger: 'blur' }],
+  packageId: [{ required: true, message: '加盟套餐不能为空', trigger: 'blur' }],
   contactName: [{ required: true, message: '联系人不能为空', trigger: 'blur' }],
-  status: [{ required: true, message: '租户状态不能为空', trigger: 'blur' }],
+  status: [{ required: true, message: '加盟状态不能为空', trigger: 'blur' }],
   accountCount: [{ required: true, message: '账号额度不能为空', trigger: 'blur' }],
   expireTime: [{ required: true, message: '过期时间不能为空', trigger: 'blur' }],
   website: [{ required: true, message: '绑定域名不能为空', trigger: 'blur' }],
@@ -115,7 +115,7 @@ const formRules = reactive({
   password: [{ required: true, message: '用户密码不能为空', trigger: 'blur' }]
 })
 const formRef = ref() // 表单 Ref
-const packageList = ref([] as TenantPackageApi.TenantPackageVO[]) // 租户套餐
+const packageList = ref([] as TenantPackageApi.TenantPackageVO[]) // 加盟套餐
 
 /** 打开弹窗 */
 const open = async (type: string, id?: number) => {

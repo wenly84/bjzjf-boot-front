@@ -109,7 +109,7 @@ const dialogStyle = computed(() => {
 <style lang="scss">
 .com-dialog {
   .#{$elNamespace}-overlay-dialog {
-    display: flex;
+    
     justify-content: center;
     align-items: center;
   }

@@ -153,6 +153,8 @@ const handleCheckedTreeExpand = () => {
 </script>
 <style lang="scss" scoped>
 .cardHeight {
+  border: 1px solid #ddeeff;
+  box-shadow: none;
   width: 100%;
   max-height: 400px;
   overflow-y: scroll;
